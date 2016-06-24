@@ -48,8 +48,8 @@
 }
 .gallery_content{
   margin-top: 20px;
-  height: 305px;
-  width: 350px;
+  min-height: 305px;
+  min-width: 350px;
   border: 5px inset black;
 }
 #bootcamp2 h1{
