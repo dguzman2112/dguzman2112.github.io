@@ -5,6 +5,7 @@
 .jumbotron{
   background-image: url('../img/beach.jpg');
   background-size: cover;
+  margin-bottom: 0px;
 }
 .navbar-brand img{
   height: 60px;
@@ -14,6 +15,7 @@
   border-radius: 30px;
 }
 #gallery{
+  margin-top: 0;
   background-color: #08182c;
   height: 634px;
 }
@@ -56,10 +58,11 @@
 
 /*ABOUT PAGE*/
 #about_me{
-  height: 500px;
+  min-height: 500px;
   width: 100%;
   background-image: url('../img/beach.jpg');
   background-size: cover;
+  padding-bottom: 20%;
 }
 #about_me img{
   border-radius: 10px;
@@ -107,6 +110,7 @@ footer{
   width: 100%;
   background-color: #333;
   clear: both;
+
 }
 
 .copyright p{
