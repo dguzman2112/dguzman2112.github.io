@@ -1,0 +1,138 @@
+/*HOME PAGE*/
+.navbar{
+  margin-bottom: 0;
+}
+.jumbotron{
+  background-image: url('../img/beach.jpg');
+  background-size: cover;
+}
+.navbar-brand img{
+  height: 60px;
+  width: 90px;
+  padding: 10px 15px;
+  margin-top: -20px;
+  border-radius: 30px;
+}
+#gallery{
+  background-color: #08182c;
+  height: 634px;
+}
+#gallery ul li{
+  font-family: 'Alegreya sans', sans-serif;
+  font-weight: bold;
+}
+#gallery-h1{
+  font-family: 'Alegreya', serif;
+  text-align:center;
+  color:#7494be;
+}
+#html .container{
+  background-color: #fff;
+  height: 340px;
+}
+#html .container p{
+  margin-top: 22%;
+  text-align: center;
+  font-weight: bold;
+}
+#bootcamp2 .container{
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+}
+.html_content{
+  border: 5px inset black;
+  margin: 20px;
+}
+.gallery_content{
+  margin-top: 20px;
+  height: 305px;
+  width: 350px;
+  border: 5px inset black;
+}
+#bootcamp2 h1{
+  text-align: center;
+}
+
+/*ABOUT PAGE*/
+#about_me{
+  height: 500px;
+  width: 100%;
+  background-image: url('../img/beach.jpg');
+  background-size: cover;
+}
+#about_me img{
+  border-radius: 10px;
+}
+#about_me h1{
+  font-family: 'Alegreya', serif;
+  color: #7494be;
+  text-align: center;
+  margin-top: 0;
+  text-shadow:
+  -1px -1px 0 #fff,
+   1px -1px 0 #fff,
+  -1px 1px 0 #fff,
+  1px 1px 0 #fff;
+}
+#about_me p{
+  margin-bottom: 52px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow:
+  -1px -1px 0 #fff,
+   1px -1px 0 #fff,
+  -1px 1px 0 #fff,
+  1px 1px 0 #fff;
+}
+#about_me span{
+  color: #7494be;
+}
+
+/*Contact Page*/
+#contact{
+  width: 100%;
+  padding: 25px 0;
+  display: inline-block;
+  background: url("../img/night_sky.jpg");
+  background-size: cover;
+}
+#contact h1{
+  text-align: center;
+}
+/*Footer Styles*/
+
+footer{
+  height: 200px;
+  width: 100%;
+  background-color: #333;
+  clear: both;
+}
+
+.copyright p{
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.sm-icons{
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  float: left;
+  margin: 0 5px;
+  border-radius: 100%;
+}
+
+.icon i{
+  font-size: 2em;
+  color: #333;
+  padding: 10px;
+}
